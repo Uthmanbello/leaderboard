@@ -127,7 +127,7 @@
     display: flex;
     justify-content: space-around;
   }
-
+ 
   .recent-scores {
     display: flex;
     justify-content: space-around;
@@ -144,7 +144,25 @@
     height: 30px;
     margin-top: 15px;
   }
+  
+  ul {
+    border: 1px solid rgb(17, 17, 17);
+    margin: 0;
+    padding: 0;
+  }
 
+  li {
+    display: flex;
+    list-style: none;
+    background-color: #c9c9c9;
+    padding-left: 4px;
+    height: 30px;
+    align-items: center;
+  }
+
+  li:nth-child(odd) {
+    background-color: white;
+  }
   .add-scores {
     display: flex;
     flex-direction: column;
@@ -154,11 +172,10 @@
     border: 2px solid rgb(17, 17, 17);
     margin: 5px 0;
     padding: 8px 4px;
-    width: 20vw;
   }
 
   .add-scores button {
-    margin-left: 78%;
+    margin-left:60%;
   }
   /* ==============================
         footer
