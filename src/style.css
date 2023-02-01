@@ -10,6 +10,14 @@
   .white {
     color: white;
   }
+
+  .ash {
+    color: #6e7072;
+  }
+
+  /* ==============================
+        nav
+  ============================== */ 
   
   .nav-bar {
     display: flex;
@@ -101,4 +109,15 @@
   
   .logo {
     margin-left: 8px;
+  }
+
+  /* ==============================
+        footer
+  ============================== */  
+  .footer-down {
+    position: fixed;
+    bottom: 0;
+    height: 3vh;
+    width: 100%;
+    background-color: #6e7072;
   }
