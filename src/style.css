@@ -1,189 +1,191 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .white {
-    color: white;
-  }
+  box-sizing: border-box;
+}
 
-  .ash {
-    color: #6e7072;
-  }
+body {
+  margin: 0;
+  padding: 0;
+}
 
-  .black {
-    color: rgb(17, 17, 17);
-  }
+.white {
+  color: white;
+}
 
-  /* ==============================
+.ash {
+  color: #6e7072;
+}
+
+.black {
+  color: rgb(17, 17, 17);
+}
+
+/* ==============================
         nav
-  ============================== */ 
-  
-  .nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 12px;
-    border: 2px solid black;
-    height: 40px;
-    margin-bottom: 80px;
-  }
-  
-  .top-nav {
-    background: #6e7072;
-    border: 2px solid black;
-    box-sizing: border-box;
-    margin: 0;
-  }
-  
-  .top-nav > * {
-    box-sizing: border-box;
-  }
-  
-  .botom-nav {
-    padding: 0 20px;
-  }
-  
-  .top-part {
-    text-align: center;
-  }
-  
-  .bottom-part {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    justify-content: space-around;
-  }
-  
-  .bottom-part p {
-    color: #fff;
-    font-size: 30px;
-    cursor: pointer;
-    margin-left: 20px;
-  }
+  ============================== */
 
-  .http-input {
-    border: 2px solid rgb(31, 28, 28);
-    border-radius: 8px;
-    margin-left: 80px;
-    height: 40px;
-    padding-left: 5px;
-    width: 40%;
-    font-size: 1rem;
-  }
-  
-  .curved-input {
-    width: 80px;
-    height: 40px;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin-left: 40px;
-  }
-  
-  .search-bar {
-    display: flex;
-    height: 40px;
-  }
-  
-  #search-text-input {
-    border: 2px solid black;
-    height: 40px;
-    width: 80px;
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
-    padding: 4px;
-    font-size: 1rem;
-  }
-  
-  .fa-magnifying-glass {
-    background-color: rgb(226, 226, 226);
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
-    border-top: 2px solid black;
-    padding: 10px 6px;
-    width: 28px;
-  }
-  
-  .logo {
-    margin-left: 8px;
-  }
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  border: 2px solid black;
+  height: 40px;
+  margin-bottom: 80px;
+}
 
-  /* ==============================
+.top-nav {
+  background: #6e7072;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.top-nav > * {
+  box-sizing: border-box;
+}
+
+.botom-nav {
+  padding: 0 20px;
+}
+
+.top-part {
+  text-align: center;
+}
+
+.bottom-part {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  justify-content: space-around;
+}
+
+.bottom-part p {
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.http-input {
+  border: 2px solid rgb(31, 28, 28);
+  border-radius: 8px;
+  margin-left: 80px;
+  height: 40px;
+  padding-left: 5px;
+  width: 40%;
+  font-size: 1rem;
+}
+
+.curved-input {
+  width: 80px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+.search-bar {
+  display: flex;
+  height: 40px;
+}
+
+#search-text-input {
+  border: 2px solid black;
+  height: 40px;
+  width: 80px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  padding: 4px;
+  font-size: 1rem;
+}
+
+.fa-magnifying-glass {
+  background-color: rgb(226, 226, 226);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  padding: 10px 6px;
+  width: 28px;
+}
+
+.logo {
+  margin-left: 8px;
+}
+
+/* ==============================
         body
-  ============================== */ 
-  .page-title {
-    padding-left: 3vw;
-  }
+  ============================== */
+.page-title {
+  padding-left: 3vw;
+}
 
-  .content {
-    padding: 0 8vw;
-    display: flex;
-    justify-content: space-around;
-  }
- 
-  .recent-scores {
-    display: flex;
-    justify-content: space-around;
-  }
+.content {
+  padding: 0 8vw;
+  display: flex;
+  justify-content: space-around;
+}
 
-  .recent-scores button {
-    margin-left: 10px;
-  }
+.recent-scores {
+  display: flex;
+  justify-content: space-around;
+}
 
-  button {
-    background-color: white;
-    box-shadow: 2px 2px 2px rgb(17, 17, 17);
-    width: 60px;
-    height: 30px;
-    margin-top: 15px;
-  }
-  
-  ul {
-    border: 2px solid rgb(17, 17, 17);
-    margin: 0;
-    padding: 0;
-  }
+button {
+  background-color: white;
+  box-shadow: 2px 2px 2px rgb(17, 17, 17);
+  width: 60px;
+  height: 30px;
+  margin-top: 15px;
+}
 
-  li {
-    display: flex;
-    list-style: none;
-    background-color: #c9c9c9;
-    padding-left: 4px;
-    height: 30px;
-    align-items: center;
-  }
+.recent-scores button {
+  margin-left: 10px;
+}
 
-  li:nth-child(odd) {
-    background-color: white;
-  }
-  .add-scores {
-    display: flex;
-    flex-direction: column;
-  }
+ul {
+  border: 2px solid rgb(17, 17, 17);
+  margin: 0;
+  padding: 0;
+}
 
-  .add-scores input {
-    border: 2px solid rgb(17, 17, 17);
-    margin: 5px 0;
-    padding: 8px 4px;
-  }
+li {
+  display: flex;
+  list-style: none;
+  background-color: #c9c9c9;
+  padding-left: 4px;
+  height: 30px;
+  align-items: center;
+}
 
-  .add-scores button {
-    margin-left:60%;
-  }
-  /* ==============================
+li:nth-child(odd) {
+  background-color: white;
+}
+
+.add-scores {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-scores input {
+  border: 2px solid rgb(17, 17, 17);
+  margin: 5px 0;
+  padding: 8px 4px;
+}
+
+.add-scores button {
+  margin-left: 60%;
+}
+
+/* ==============================
         footer
-  ============================== */  
-  .footer-down {
-    position: fixed;
-    bottom: 0;
-    height: 3vh;
-    width: 100%;
-    background-color: #6e7072;
-  }
+  ============================== */
+.footer-down {
+  position: fixed;
+  bottom: 0;
+  height: 3vh;
+  width: 100%;
+  background-color: #6e7072;
+}
