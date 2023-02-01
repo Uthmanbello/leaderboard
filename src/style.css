@@ -15,6 +15,10 @@
     color: #6e7072;
   }
 
+  .black {
+    color: rgb(17, 17, 17);
+  }
+
   /* ==============================
         nav
   ============================== */ 
@@ -111,6 +115,51 @@
     margin-left: 8px;
   }
 
+  /* ==============================
+        body
+  ============================== */ 
+  .page-title {
+    padding-left: 3vw;
+  }
+
+  .content {
+    padding: 0 8vw;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .recent-scores {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .recent-scores button {
+    margin-left: 10px;
+  }
+
+  button {
+    background-color: white;
+    box-shadow: 2px 2px 2px rgb(17, 17, 17);
+    width: 60px;
+    height: 30px;
+    margin-top: 15px;
+  }
+
+  .add-scores {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .add-scores input {
+    border: 2px solid rgb(17, 17, 17);
+    margin: 5px 0;
+    padding: 8px 4px;
+    width: 20vw;
+  }
+
+  .add-scores button {
+    margin-left: 78%;
+  }
   /* ==============================
         footer
   ============================== */  
