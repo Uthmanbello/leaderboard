@@ -9,5 +9,5 @@ export const showScores = (data = []) => {
       `;
     });
   
-    tableList.innerHTML = html;
+    scoreTable.innerHTML = html;
   };

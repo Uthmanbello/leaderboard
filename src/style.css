@@ -19,6 +19,10 @@ body {
   color: rgb(17, 17, 17);
 }
 
+.d-none {
+    display: none;
+}
+
 .page-title {
   padding-left: 3vw;
 }
@@ -32,6 +36,10 @@ body {
 .recent-scores {
   display: flex;
   justify-content: space-around;
+}
+
+.message {
+    color: red;
 }
 
 button {
