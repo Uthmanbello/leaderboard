@@ -20,7 +20,7 @@ body {
 }
 
 .d-none {
-    display: none;
+  display: none;
 }
 
 .page-title {
@@ -39,7 +39,7 @@ body {
 }
 
 .message {
-    color: red;
+  color: red;
 }
 
 button {
