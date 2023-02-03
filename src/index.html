@@ -10,18 +10,18 @@
 <body>
     <h1 class="page-title black">Leaderboard</h1>
     <section class="content">
-        <div class="black">
+        <div class="recent black">
             <div class="recent-scores">
-                <h2>Recent scores</h2>
-                    <button type="button" id="refresh-btn">Refresh</button>
+                <h2 class="small-heading black">Recent scores</h2>
+                <button type="button" id="refresh-btn">Refresh</button>
             </div>
             <div>
                 <p class="message">Please, click on 'Refresh' to see the latest scores</p>
                 <ul id="score-table"></ul>
             </div>
         </div>
-        <div class="add-scores">
-            <h2 class="black">Add your score</h2>
+        <div class="add-scores black">
+            <h2 class="small-heading">Add your score</h2>
             <form method="post">
                 <input type="text" name="name" id="name" placeholder="Your name">
                 <input type="number" name="score" id="score" placeholder="Your score">
