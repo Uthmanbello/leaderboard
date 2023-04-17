@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.white {
+  color: white;
+}
+
+.ash {
+  color: #6e7072;
+}
+
+.black {
+  color: rgb(17, 17, 17);
+}
+
+.d-none {
+  display: none;
+}
+
+.page-title {
+  padding-left: 3vw;
+  font-size: 4em;
+}
+
+.content {
+  padding: 0 8vw;
+  display: flex;
+  justify-content: space-between;
+  width: 98vw;
+}
+
+.recent-scores {
+  display: flex;
+}
+
+.recent {
+  width: 45vw;
+}
+
+.small-heading {
+  font-size: 2em;
+}
+
+.message {
+  color: red;
+}
+
+button {
+  background-color: white;
+  box-shadow: 2px 2px 2px rgb(17, 17, 17);
+  width: 60px;
+  height: 30px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+#refresh-btn {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+#refresh-btn:active {
+  color: white;
+  background-color: red;
+}
+
+.recent-scores button {
+  margin-left: 10px;
+}
+
+ul {
+  border: 2px solid rgb(17, 17, 17);
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  list-style: none;
+  background-color: #c9c9c9;
+  padding-left: 6px;
+  height: 35px;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+li:nth-child(odd) {
+  background-color: white;
+}
+
+.add-scores {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-scores input {
+  border: 2px solid rgb(97, 97, 97);
+  margin: 5px 0;
+  padding: 8px 4px;
+  border-radius: 5px;
+}
+
+.add-scores button {
+  margin-left: 60%;
+}
+
+#submit-btn {
+  margin-left: 25.5vw;
+}
+
+#submit-btn:active {
+  color: white;
+  background-color: red;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/dcdd89c74c.js" crossorigin="anonymous"></script>
+    <title>Leaderboard</title>
+<script defer src="main.js"></script></head>
+<body>
+    <h1 class="page-title black">Leaderboard</h1>
+    <section class="content">
+        <div class="recent black">
+            <div class="recent-scores">
+                <h2 class="small-heading black">Recent scores</h2>
+                <button type="button" id="refresh-btn">Refresh</button>
+            </div>
+            <div>
+                <p class="message">Please, click on 'Refresh' to see the latest scores</p>
+                <ul id="score-table"></ul>
+            </div>
+        </div>
+        <div class="add-scores black">
+            <h2 class="small-heading">Add your score</h2>
+            <form method="post">
+                <input type="text" name="name" id="name" placeholder="Your name">
+                <input type="number" name="score" id="score" placeholder="Your score">
+                <button type="button" id="submit-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
