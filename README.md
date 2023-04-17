@@ -9,8 +9,6 @@
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -28,8 +26,6 @@
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
-
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 [Leaderboard] <a name="about-project"></a>
 
@@ -71,15 +67,15 @@ Clone this repository to your desired folder:
 
 To clone this repository to your desired folder, use your code editor terminal or git bash, then type the command below:
 
-git clone https://github.com/Uthmanbello/leaderboard
+`git clone https://github.com/Uthmanbello/leaderboard`
 
 ### Install
 
 1. Install WebHint:
-npm install --save-dev hint@7.x
+`npm install --save-dev hint@7.x`
 
 2. Install StyleLint
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+`npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x`
 
 ### Usage
 
@@ -93,10 +89,10 @@ To run tests, run the following command:
 
 To run tests and check for errors:
 - After installing the required linter,
-npx stylelint "**/*.{css,scss}"
+`npx stylelint "**/*.{css,scss}"`
 
 - To fix CSS or SCSS linters error:
-npx stylelint "**/*.{css,scss}" --fix
+`npx stylelint "**/*.{css,scss}" --fix`
 
 ### Deployment
 
@@ -110,9 +106,9 @@ You can deploy this project using:
 
 👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/Uthmanbello)
-- Twitter: [@twitterhandle](https://twitter.com/UthmanDeRoyale)
-- LinkedIn: [LinkedIn](linkedin.com/in/uthman-igein-bello-imoukhuede)
+- GitHub: [@Uthmanbello](https://github.com/Uthmanbello)
+- Twitter: [@UthmanDeRoyale](https://twitter.com/UthmanDeRoyale)
+- LinkedIn: [Uthman Igein Bello-Imoukhuede](linkedin.com/in/uthmanbelloimoukhuede)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,8 +122,6 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -143,8 +137,6 @@ I would like to thank my learning partners, morning and standup team members, me
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
